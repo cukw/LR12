@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HerokuApp UI Tests" parallel="classes" thread-count="4" verbose="2">
+    <listeners>
+        <listener class-name="com.lr12.test.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Add Remove Elements Tests">
+        <classes>
+            <class name="com.lr12.test.tests.AddRemoveElementsTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkboxes Tests">
+        <classes>
+            <class name="com.lr12.test.tests.CheckboxesTest"/>
+        </classes>
+    </test>
+
+    <test name="Dropdown Tests">
+        <classes>
+            <class name="com.lr12.test.tests.DropdownTest"/>
+        </classes>
+    </test>
+
+    <test name="Inputs Tests">
+        <classes>
+            <class name="com.lr12.test.tests.InputsTest"/>
+        </classes>
+    </test>
+
+    <test name="Typos Tests">
+        <classes>
+            <class name="com.lr12.test.tests.TyposTest"/>
+        </classes>
+    </test>
+
+    <test name="Sortable Data Tables Tests">
+        <classes>
+            <class name="com.lr12.test.tests.SortableDataTablesTest"/>
+        </classes>
+    </test>
+
+    <test name="Hovers Tests">
+        <classes>
+            <class name="com.lr12.test.tests.HoversTest"/>
+        </classes>
+    </test>
+
+    <test name="Notification Messages Tests">
+        <classes>
+            <class name="com.lr12.test.tests.NotificationMessagesTest"/>
+        </classes>
+    </test>
+</suite>
