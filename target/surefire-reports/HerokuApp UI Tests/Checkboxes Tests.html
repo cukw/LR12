@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>TestNG:  Checkboxes Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Checkboxes Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Feb 01 19:51:37 MSK 2026</td>
+</tr>
+<tr><td>Total time:</td><td>17 seconds (17864 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.lr12.test.tests.CheckboxesTest.testToggleBothCheckboxes()'><b>testToggleBothCheckboxes</b><br>Test class: com.lr12.test.tests.CheckboxesTest<br>Test method: Переключить оба чекбокса и проверить их состояния</td>
+<td></td>
+<td>0</td>
+<td>com.lr12.test.tests.CheckboxesTest@2e48362c</td></tr>
+<tr>
+<td title='com.lr12.test.tests.CheckboxesTest.testToggleCheckboxMultipleTimes()'><b>testToggleCheckboxMultipleTimes</b><br>Test class: com.lr12.test.tests.CheckboxesTest<br>Test method: Несколько раз переключить чекбокс и вернуть в исходное состояние</td>
+<td></td>
+<td>0</td>
+<td>com.lr12.test.tests.CheckboxesTest@2e48362c</td></tr>
+<tr>
+<td title='com.lr12.test.tests.CheckboxesTest.testUncheckSecondCheckbox()'><b>testUncheckSecondCheckbox</b><br>Test class: com.lr12.test.tests.CheckboxesTest<br>Test method: Снять отметку со второго чекбокса и проверить, что он unchecked</td>
+<td></td>
+<td>0</td>
+<td>com.lr12.test.tests.CheckboxesTest@2e48362c</td></tr>
+<tr>
+<td title='com.lr12.test.tests.CheckboxesTest.testSecondCheckboxInitialStateChecked()'><b>testSecondCheckboxInitialStateChecked</b><br>Test class: com.lr12.test.tests.CheckboxesTest<br>Test method: Проверить, что второй чекбокс checked</td>
+<td></td>
+<td>0</td>
+<td>com.lr12.test.tests.CheckboxesTest@2e48362c</td></tr>
+<tr>
+<td title='com.lr12.test.tests.CheckboxesTest.testFirstCheckboxInitialStateUnchecked()'><b>testFirstCheckboxInitialStateUnchecked</b><br>Test class: com.lr12.test.tests.CheckboxesTest<br>Test method: Проверить, что первый чекбокс unchecked</td>
+<td></td>
+<td>0</td>
+<td>com.lr12.test.tests.CheckboxesTest@2e48362c</td></tr>
+<tr>
+<td title='com.lr12.test.tests.CheckboxesTest.testCheckFirstCheckbox()'><b>testCheckFirstCheckbox</b><br>Test class: com.lr12.test.tests.CheckboxesTest<br>Test method: Отметить первый чекбокс и проверить, что он checked</td>
+<td></td>
+<td>0</td>
+<td>com.lr12.test.tests.CheckboxesTest@2e48362c</td></tr>
+</table><p>
+</body>
+</html>
