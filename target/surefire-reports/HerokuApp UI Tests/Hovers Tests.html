@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>TestNG:  Hovers Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Hovers Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Feb 01 19:52:18 MSK 2026</td>
+</tr>
+<tr><td>Total time:</td><td>53 seconds (53680 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.lr12.test.tests.HoversTest.testGetUserIdHover()'><b>testGetUserIdHover</b><br>Test class: com.lr12.test.tests.HoversTest<br>Test method: Получить ID первого пользователя</td>
+<td></td>
+<td>0</td>
+<td>com.lr12.test.tests.HoversTest@60129b9a</td></tr>
+<tr>
+<td title='com.lr12.test.tests.HoversTest.testClickAllUserProfiles()'><b>testClickAllUserProfiles</b><br>Test class: com.lr12.test.tests.HoversTest<br>Test method: Для каждого профиля: клик, проверка, возврат</td>
+<td></td>
+<td>10</td>
+<td>com.lr12.test.tests.HoversTest@60129b9a</td></tr>
+<tr>
+<td title='com.lr12.test.tests.HoversTest.testFirstUserProfileDisplayed()'><b>testFirstUserProfileDisplayed</b><br>Test class: com.lr12.test.tests.HoversTest<br>Test method: Проверить, что первый профиль отображается на странице</td>
+<td></td>
+<td>0</td>
+<td>com.lr12.test.tests.HoversTest@60129b9a</td></tr>
+<tr>
+<td title='com.lr12.test.tests.HoversTest.testGetUserProfilesCount()'><b>testGetUserProfilesCount</b><br>Test class: com.lr12.test.tests.HoversTest<br>Test method: Получить количество профилей (avatars) на странице</td>
+<td></td>
+<td>0</td>
+<td>com.lr12.test.tests.HoversTest@60129b9a</td></tr>
+<tr>
+<td title='com.lr12.test.tests.HoversTest.testAllUserProfilesHover()'><b>testAllUserProfilesHover</b><br>Test class: com.lr12.test.tests.HoversTest<br>Test method: Наведение на все видимые профили и проверка, что имена получены</td>
+<td></td>
+<td>2</td>
+<td>com.lr12.test.tests.HoversTest@60129b9a</td></tr>
+<tr>
+<td title='com.lr12.test.tests.HoversTest.testHoverFirstProfileAndGetName()'><b>testHoverFirstProfileAndGetName</b><br>Test class: com.lr12.test.tests.HoversTest<br>Test method: Навести на первый профиль и получить его имя</td>
+<td></td>
+<td>0</td>
+<td>com.lr12.test.tests.HoversTest@60129b9a</td></tr>
+<tr>
+<td title='com.lr12.test.tests.HoversTest.testHoverVerifyNameAndClick()'><b>testHoverVerifyNameAndClick</b><br>Test class: com.lr12.test.tests.HoversTest<br>Test method: Для первого профиля: наведение, проверка имени, клик, проверка загрузки</td>
+<td></td>
+<td>2</td>
+<td>com.lr12.test.tests.HoversTest@60129b9a</td></tr>
+<tr>
+<td title='com.lr12.test.tests.HoversTest.testSecondUserProfile()'><b>testSecondUserProfile</b><br>Test class: com.lr12.test.tests.HoversTest<br>Test method: Получить имя второго пользователя и проверить</td>
+<td></td>
+<td>0</td>
+<td>com.lr12.test.tests.HoversTest@60129b9a</td></tr>
+<tr>
+<td title='com.lr12.test.tests.HoversTest.testThirdUserProfile()'><b>testThirdUserProfile</b><br>Test class: com.lr12.test.tests.HoversTest<br>Test method: Получить имя третьего пользователя и проверить</td>
+<td></td>
+<td>0</td>
+<td>com.lr12.test.tests.HoversTest@60129b9a</td></tr>
+<tr>
+<td title='com.lr12.test.tests.HoversTest.testClickFirstUserProfile()'><b>testClickFirstUserProfile</b><br>Test class: com.lr12.test.tests.HoversTest<br>Test method: Кликнуть на ссылку первого профиля и проверить загрузку</td>
+<td></td>
+<td>1</td>
+<td>com.lr12.test.tests.HoversTest@60129b9a</td></tr>
+</table><p>
+</body>
+</html>

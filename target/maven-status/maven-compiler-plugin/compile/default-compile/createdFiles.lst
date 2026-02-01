@@ -1,0 +1,13 @@
+com\lr12\test\pages\CheckboxesPage.class
+com\lr12\test\pages\HoversPage.class
+com\lr12\test\config\DriverFactory.class
+com\lr12\test\pages\NotificationMessagesPage.class
+com\lr12\test\utils\ElementFinder.class
+com\lr12\test\pages\DropdownPage.class
+com\lr12\test\pages\BasePage.class
+com\lr12\test\config\ConfigReader.class
+com\lr12\test\config\ThreadSafeDriver.class
+com\lr12\test\pages\TyposPage.class
+com\lr12\test\pages\SortableDataTablesPage.class
+com\lr12\test\pages\AddRemoveElementsPage.class
+com\lr12\test\pages\InputsPage.class

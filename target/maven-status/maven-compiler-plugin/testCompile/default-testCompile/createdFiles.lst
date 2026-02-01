@@ -1,0 +1,12 @@
+com\lr12\test\tests\CheckboxesTest.class
+com\lr12\test\base\TestBase.class
+com\lr12\test\listeners\TestListener.class
+com\lr12\test\tests\NotificationMessagesTest.class
+com\lr12\test\tests\TyposTest.class
+com\lr12\test\tests\AddRemoveElementsTest.class
+com\lr12\test\tests\DropdownTest.class
+com\lr12\test\utils\WaitUtils.class
+com\lr12\test\tests\HoversTest.class
+com\lr12\test\tests\InputsTest.class
+com\lr12\test\tests\SortableDataTablesTest.class
+com\lr12\test\listeners\RetryListener.class

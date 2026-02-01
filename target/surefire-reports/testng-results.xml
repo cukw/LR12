@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="64" passed="64" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-01T19:51:37 MSK" name="HerokuApp UI Tests" finished-at="2026-02-01T19:53:52 MSK" duration-ms="135503">
+    <groups>
+    </groups>
+    <test started-at="2026-02-01T19:51:37 MSK" name="Checkboxes Tests" finished-at="2026-02-01T19:51:55 MSK" duration-ms="17864">
+      <class name="com.lr12.test.tests.CheckboxesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:37 MSK" name="setUp" finished-at="2026-02-01T19:51:41 MSK" duration-ms="3901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckFirstCheckbox()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:41 MSK" name="testCheckFirstCheckbox" description="Отметить первый чекбокс и проверить, что он checked" finished-at="2026-02-01T19:51:41 MSK" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckFirstCheckbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:41 MSK" name="tearDown" finished-at="2026-02-01T19:51:41 MSK" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:41 MSK" name="setUp" finished-at="2026-02-01T19:51:44 MSK" duration-ms="2471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFirstCheckboxInitialStateUnchecked()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:44 MSK" name="testFirstCheckboxInitialStateUnchecked" description="Проверить, что первый чекбокс unchecked" finished-at="2026-02-01T19:51:44 MSK" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstCheckboxInitialStateUnchecked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:44 MSK" name="tearDown" finished-at="2026-02-01T19:51:44 MSK" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:44 MSK" name="setUp" finished-at="2026-02-01T19:51:46 MSK" duration-ms="2386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSecondCheckboxInitialStateChecked()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:46 MSK" name="testSecondCheckboxInitialStateChecked" description="Проверить, что второй чекбокс checked" finished-at="2026-02-01T19:51:46 MSK" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecondCheckboxInitialStateChecked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:46 MSK" name="tearDown" finished-at="2026-02-01T19:51:46 MSK" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:46 MSK" name="setUp" finished-at="2026-02-01T19:51:49 MSK" duration-ms="2481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testToggleBothCheckboxes()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:49 MSK" name="testToggleBothCheckboxes" description="Переключить оба чекбокса и проверить их состояния" finished-at="2026-02-01T19:51:49 MSK" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToggleBothCheckboxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:49 MSK" name="tearDown" finished-at="2026-02-01T19:51:49 MSK" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:49 MSK" name="setUp" finished-at="2026-02-01T19:51:52 MSK" duration-ms="2452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testToggleCheckboxMultipleTimes()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:52 MSK" name="testToggleCheckboxMultipleTimes" description="Несколько раз переключить чекбокс и вернуть в исходное состояние" finished-at="2026-02-01T19:51:52 MSK" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToggleCheckboxMultipleTimes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:52 MSK" name="tearDown" finished-at="2026-02-01T19:51:52 MSK" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:52 MSK" name="setUp" finished-at="2026-02-01T19:51:54 MSK" duration-ms="2322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUncheckSecondCheckbox()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:54 MSK" name="testUncheckSecondCheckbox" description="Снять отметку со второго чекбокса и проверить, что он unchecked" finished-at="2026-02-01T19:51:54 MSK" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUncheckSecondCheckbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.CheckboxesTest@2e48362c]" started-at="2026-02-01T19:51:54 MSK" name="tearDown" finished-at="2026-02-01T19:51:55 MSK" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lr12.test.tests.CheckboxesTest -->
+    </test> <!-- Checkboxes Tests -->
+    <test started-at="2026-02-01T19:51:37 MSK" name="Dropdown Tests" finished-at="2026-02-01T19:51:56 MSK" duration-ms="18870">
+      <class name="com.lr12.test.tests.DropdownTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:37 MSK" name="setUp" finished-at="2026-02-01T19:51:41 MSK" duration-ms="3890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDropdownContainsAllOptions()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:41 MSK" name="testDropdownContainsAllOptions" description="Получить все опции dropdown&#039;а и проверить количество" finished-at="2026-02-01T19:51:41 MSK" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdownContainsAllOptions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:41 MSK" name="tearDown" finished-at="2026-02-01T19:51:41 MSK" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:41 MSK" name="setUp" finished-at="2026-02-01T19:51:44 MSK" duration-ms="2569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDropdownOptionsCount()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:44 MSK" name="testDropdownOptionsCount" description="Проверить количество опций в dropdown&#039;е" finished-at="2026-02-01T19:51:44 MSK" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdownOptionsCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:44 MSK" name="tearDown" finished-at="2026-02-01T19:51:44 MSK" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:44 MSK" name="setUp" finished-at="2026-02-01T19:51:46 MSK" duration-ms="2563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testOptionExists()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:46 MSK" name="testOptionExists" description="Проверить, что определённые опции существуют" finished-at="2026-02-01T19:51:47 MSK" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOptionExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:47 MSK" name="tearDown" finished-at="2026-02-01T19:51:47 MSK" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:47 MSK" name="setUp" finished-at="2026-02-01T19:51:49 MSK" duration-ms="2250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectFirstOption()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:49 MSK" name="testSelectFirstOption" description="Выбрать первую опцию и проверить, что она выбрана" finished-at="2026-02-01T19:51:50 MSK" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectFirstOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:50 MSK" name="tearDown" finished-at="2026-02-01T19:51:50 MSK" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:50 MSK" name="setUp" finished-at="2026-02-01T19:51:52 MSK" duration-ms="2506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectSecondOption()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:52 MSK" name="testSelectSecondOption" description="Выбрать вторую опцию и проверить, что она выбрана" finished-at="2026-02-01T19:51:53 MSK" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectSecondOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:53 MSK" name="tearDown" finished-at="2026-02-01T19:51:53 MSK" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:53 MSK" name="setUp" finished-at="2026-02-01T19:51:55 MSK" duration-ms="2252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSwitchBetweenOptions()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:55 MSK" name="testSwitchBetweenOptions" description="Выбрать первую опцию, потом вторую и проверить" finished-at="2026-02-01T19:51:56 MSK" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwitchBetweenOptions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.DropdownTest@1984b1f]" started-at="2026-02-01T19:51:56 MSK" name="tearDown" finished-at="2026-02-01T19:51:56 MSK" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lr12.test.tests.DropdownTest -->
+    </test> <!-- Dropdown Tests -->
+    <test started-at="2026-02-01T19:51:55 MSK" name="Typos Tests" finished-at="2026-02-01T19:52:18 MSK" duration-ms="23568">
+      <class name="com.lr12.test.tests.TyposTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:51:55 MSK" name="setUp" finished-at="2026-02-01T19:51:58 MSK" duration-ms="3440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetParagraphText()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:51:58 MSK" name="testGetParagraphText" description="Получить текст параграфа со страницы" finished-at="2026-02-01T19:51:58 MSK" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetParagraphText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:51:58 MSK" name="tearDown" finished-at="2026-02-01T19:51:58 MSK" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:51:58 MSK" name="setUp" finished-at="2026-02-01T19:52:02 MSK" duration-ms="3391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testParagraphContainsText()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:02 MSK" name="testParagraphContainsText" finished-at="2026-02-01T19:52:03 MSK" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParagraphContainsText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:03 MSK" name="tearDown" finished-at="2026-02-01T19:52:03 MSK" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:03 MSK" name="setUp" finished-at="2026-02-01T19:52:06 MSK" duration-ms="3462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testParagraphStartsWith()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:06 MSK" name="testParagraphStartsWith" description="Проверить, что параграф начинается с определённого слова" finished-at="2026-02-01T19:52:07 MSK" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParagraphStartsWith -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:07 MSK" name="tearDown" finished-at="2026-02-01T19:52:07 MSK" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:07 MSK" name="setUp" finished-at="2026-02-01T19:52:10 MSK" duration-ms="3395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTextLength()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:10 MSK" name="testTextLength" description="Получить длину текста параграфа" finished-at="2026-02-01T19:52:10 MSK" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTextLength -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:10 MSK" name="tearDown" finished-at="2026-02-01T19:52:10 MSK" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:10 MSK" name="setUp" finished-at="2026-02-01T19:52:14 MSK" duration-ms="3382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTypoDetection()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:14 MSK" name="testTypoDetection" finished-at="2026-02-01T19:52:15 MSK" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTypoDetection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:15 MSK" name="tearDown" finished-at="2026-02-01T19:52:15 MSK" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:15 MSK" name="setUp" finished-at="2026-02-01T19:52:18 MSK" duration-ms="3246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWordCount()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:18 MSK" name="testWordCount" description="Получить количество слов в параграфе" finished-at="2026-02-01T19:52:18 MSK" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.TyposTest@59a008ba]" started-at="2026-02-01T19:52:18 MSK" name="tearDown" finished-at="2026-02-01T19:52:18 MSK" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lr12.test.tests.TyposTest -->
+    </test> <!-- Typos Tests -->
+    <test started-at="2026-02-01T19:51:37 MSK" name="Inputs Tests" finished-at="2026-02-01T19:52:18 MSK" duration-ms="41598">
+      <class name="com.lr12.test.tests.InputsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:51:37 MSK" name="setUp" finished-at="2026-02-01T19:51:43 MSK" duration-ms="6081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testClearInput()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:51:43 MSK" name="testClearInput" description="Ввести значение, затем очистить input" finished-at="2026-02-01T19:51:44 MSK" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:51:44 MSK" name="tearDown" finished-at="2026-02-01T19:51:44 MSK" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:51:44 MSK" name="setUp" finished-at="2026-02-01T19:51:48 MSK" duration-ms="3685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputAlphanumeric()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:51:48 MSK" name="testInputAlphanumeric" finished-at="2026-02-01T19:51:50 MSK" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputAlphanumeric -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:51:50 MSK" name="tearDown" finished-at="2026-02-01T19:51:50 MSK" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:51:50 MSK" name="setUp" finished-at="2026-02-01T19:51:53 MSK" duration-ms="3568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputNumericValues()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:51:53 MSK" name="testInputNumericValues" description="Ввести цифровые значения в input" finished-at="2026-02-01T19:51:54 MSK" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputNumericValues -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:51:54 MSK" name="tearDown" finished-at="2026-02-01T19:51:54 MSK" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:51:54 MSK" name="setUp" finished-at="2026-02-01T19:51:57 MSK" duration-ms="3442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputSpecialCharacters()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:51:57 MSK" name="testInputSpecialCharacters" description="Ввести специальные символы в input" finished-at="2026-02-01T19:51:59 MSK" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputSpecialCharacters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:51:59 MSK" name="tearDown" finished-at="2026-02-01T19:51:59 MSK" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:51:59 MSK" name="setUp" finished-at="2026-02-01T19:52:03 MSK" duration-ms="3274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputWithArrowDown()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:52:03 MSK" name="testInputWithArrowDown" description="Ввести число и отправить стрелку вниз (ARROW_DOWN)" finished-at="2026-02-01T19:52:04 MSK" duration-ms="1670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputWithArrowDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:52:04 MSK" name="tearDown" finished-at="2026-02-01T19:52:05 MSK" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:52:05 MSK" name="setUp" finished-at="2026-02-01T19:52:08 MSK" duration-ms="3388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputWithArrowUp()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:52:08 MSK" name="testInputWithArrowUp" description="Ввести число и отправить стрелку вверх (ARROW_UP)" finished-at="2026-02-01T19:52:09 MSK" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputWithArrowUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:52:09 MSK" name="tearDown" finished-at="2026-02-01T19:52:10 MSK" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:52:10 MSK" name="setUp" finished-at="2026-02-01T19:52:13 MSK" duration-ms="3319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMultipleArrowDown()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:52:13 MSK" name="testMultipleArrowDown" description="Ввести число и отправить несколько стрелок вниз" finished-at="2026-02-01T19:52:14 MSK" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleArrowDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:52:14 MSK" name="tearDown" finished-at="2026-02-01T19:52:14 MSK" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:52:14 MSK" name="setUp" finished-at="2026-02-01T19:52:17 MSK" duration-ms="3286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMultipleArrowUp()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:52:17 MSK" name="testMultipleArrowUp" description="Ввести число и отправить несколько стрелок вверх" finished-at="2026-02-01T19:52:18 MSK" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleArrowUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.InputsTest@68df9280]" started-at="2026-02-01T19:52:18 MSK" name="tearDown" finished-at="2026-02-01T19:52:18 MSK" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lr12.test.tests.InputsTest -->
+    </test> <!-- Inputs Tests -->
+    <test started-at="2026-02-01T19:51:56 MSK" name="Sortable Data Tables Tests" finished-at="2026-02-01T19:52:47 MSK" duration-ms="51721">
+      <class name="com.lr12.test.tests.SortableDataTablesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:51:56 MSK" name="setUp" finished-at="2026-02-01T19:51:58 MSK" duration-ms="2239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCellContainsText()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:51:58 MSK" name="testCellContainsText" description="Проверить, что ячейка содержит определённый текст" finished-at="2026-02-01T19:51:58 MSK" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCellContainsText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:51:58 MSK" name="tearDown" finished-at="2026-02-01T19:51:58 MSK" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:51:58 MSK" name="setUp" finished-at="2026-02-01T19:52:00 MSK" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetAllTables()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:00 MSK" name="testGetAllTables" description="Получить все таблицы и проверить их количество" finished-at="2026-02-01T19:52:00 MSK" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllTables -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:00 MSK" name="tearDown" finished-at="2026-02-01T19:52:00 MSK" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:00 MSK" name="setUp" finished-at="2026-02-01T19:52:03 MSK" duration-ms="2282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetColumnCount()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:03 MSK" name="testGetColumnCount" description="Получить количество колонок в первой таблице" finished-at="2026-02-01T19:52:03 MSK" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetColumnCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:03 MSK" name="tearDown" finished-at="2026-02-01T19:52:03 MSK" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:03 MSK" name="setUp" finished-at="2026-02-01T19:52:05 MSK" duration-ms="2415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetColumnValues()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:05 MSK" name="testGetColumnValues" description="Получить все значения из первой колонки первой таблицы" finished-at="2026-02-01T19:52:05 MSK" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetColumnValues -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:05 MSK" name="tearDown" finished-at="2026-02-01T19:52:05 MSK" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:05 MSK" name="setUp" finished-at="2026-02-01T19:52:08 MSK" duration-ms="2262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetFirstTableFirstCell()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:08 MSK" name="testGetFirstTableFirstCell" description="Получить значение первой ячейки из первой таблицы" finished-at="2026-02-01T19:52:08 MSK" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetFirstTableFirstCell -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:08 MSK" name="tearDown" finished-at="2026-02-01T19:52:08 MSK" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:08 MSK" name="setUp" finished-at="2026-02-01T19:52:10 MSK" duration-ms="2426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetFullTableData()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:10 MSK" name="testGetFullTableData" finished-at="2026-02-01T19:52:32 MSK" duration-ms="21252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetFullTableData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:32 MSK" name="tearDown" finished-at="2026-02-01T19:52:32 MSK" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:32 MSK" name="setUp" finished-at="2026-02-01T19:52:34 MSK" duration-ms="2627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetRowCount()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:34 MSK" name="testGetRowCount" description="Получить количество строк в первой таблице" finished-at="2026-02-01T19:52:34 MSK" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRowCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:34 MSK" name="tearDown" finished-at="2026-02-01T19:52:35 MSK" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:35 MSK" name="setUp" finished-at="2026-02-01T19:52:37 MSK" duration-ms="2344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetRowValues()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:37 MSK" name="testGetRowValues" description="Получить все значения из первой строки первой таблицы" finished-at="2026-02-01T19:52:37 MSK" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRowValues -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:37 MSK" name="tearDown" finished-at="2026-02-01T19:52:37 MSK" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:37 MSK" name="setUp" finished-at="2026-02-01T19:52:40 MSK" duration-ms="2568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSecondTableData()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:40 MSK" name="testSecondTableData" description="Проверить данные из второй таблицы" finished-at="2026-02-01T19:52:40 MSK" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecondTableData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:40 MSK" name="tearDown" finished-at="2026-02-01T19:52:40 MSK" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:40 MSK" name="setUp" finished-at="2026-02-01T19:52:42 MSK" duration-ms="2321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testVerifyCellValue()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:42 MSK" name="testVerifyCellValue" description="Проверить значение ячейки в первой таблице" finished-at="2026-02-01T19:52:42 MSK" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyCellValue -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:42 MSK" name="tearDown" finished-at="2026-02-01T19:52:42 MSK" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:42 MSK" name="setUp" finished-at="2026-02-01T19:52:44 MSK" duration-ms="2278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testVerifyMultipleCells()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:44 MSK" name="testVerifyMultipleCells" description="Проверить содержимое нескольких ячеек в таблице" finished-at="2026-02-01T19:52:45 MSK" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyMultipleCells -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:45 MSK" name="tearDown" finished-at="2026-02-01T19:52:45 MSK" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:45 MSK" name="setUp" finished-at="2026-02-01T19:52:47 MSK" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testVerifyTableContent()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:47 MSK" name="testVerifyTableContent" description="Проверить содержимое 3-5 ячеек из первой таблицы" finished-at="2026-02-01T19:52:47 MSK" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyTableContent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.SortableDataTablesTest@67d18ed7]" started-at="2026-02-01T19:52:47 MSK" name="tearDown" finished-at="2026-02-01T19:52:47 MSK" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lr12.test.tests.SortableDataTablesTest -->
+    </test> <!-- Sortable Data Tables Tests -->
+    <test started-at="2026-02-01T19:52:18 MSK" name="Hovers Tests" finished-at="2026-02-01T19:53:12 MSK" duration-ms="53680">
+      <class name="com.lr12.test.tests.HoversTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:18 MSK" name="setUp" finished-at="2026-02-01T19:52:22 MSK" duration-ms="3354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAllUserProfilesHover()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:22 MSK" name="testAllUserProfilesHover" description="Наведение на все видимые профили и проверка, что имена получены" finished-at="2026-02-01T19:52:24 MSK" duration-ms="2034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllUserProfilesHover -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:24 MSK" name="tearDown" finished-at="2026-02-01T19:52:24 MSK" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:24 MSK" name="setUp" finished-at="2026-02-01T19:52:27 MSK" duration-ms="3349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testClickAllUserProfiles()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:27 MSK" name="testClickAllUserProfiles" description="Для каждого профиля: клик, проверка, возврат" finished-at="2026-02-01T19:52:37 MSK" duration-ms="10123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickAllUserProfiles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:37 MSK" name="tearDown" finished-at="2026-02-01T19:52:37 MSK" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:37 MSK" name="setUp" finished-at="2026-02-01T19:52:41 MSK" duration-ms="3354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testClickFirstUserProfile()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:41 MSK" name="testClickFirstUserProfile" description="Кликнуть на ссылку первого профиля и проверить загрузку" finished-at="2026-02-01T19:52:42 MSK" duration-ms="1502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickFirstUserProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:42 MSK" name="tearDown" finished-at="2026-02-01T19:52:43 MSK" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:43 MSK" name="setUp" finished-at="2026-02-01T19:52:46 MSK" duration-ms="3408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFirstUserProfileDisplayed()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:46 MSK" name="testFirstUserProfileDisplayed" description="Проверить, что первый профиль отображается на странице" finished-at="2026-02-01T19:52:46 MSK" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstUserProfileDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:46 MSK" name="tearDown" finished-at="2026-02-01T19:52:46 MSK" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:46 MSK" name="setUp" finished-at="2026-02-01T19:52:50 MSK" duration-ms="3598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetUserIdHover()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:50 MSK" name="testGetUserIdHover" description="Получить ID первого пользователя" finished-at="2026-02-01T19:52:50 MSK" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserIdHover -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:50 MSK" name="tearDown" finished-at="2026-02-01T19:52:50 MSK" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:50 MSK" name="setUp" finished-at="2026-02-01T19:52:54 MSK" duration-ms="3558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetUserProfilesCount()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:54 MSK" name="testGetUserProfilesCount" description="Получить количество профилей (avatars) на странице" finished-at="2026-02-01T19:52:54 MSK" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserProfilesCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:54 MSK" name="tearDown" finished-at="2026-02-01T19:52:54 MSK" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:54 MSK" name="setUp" finished-at="2026-02-01T19:52:57 MSK" duration-ms="3213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHoverFirstProfileAndGetName()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:57 MSK" name="testHoverFirstProfileAndGetName" description="Навести на первый профиль и получить его имя" finished-at="2026-02-01T19:52:58 MSK" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverFirstProfileAndGetName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:58 MSK" name="tearDown" finished-at="2026-02-01T19:52:58 MSK" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:52:58 MSK" name="setUp" finished-at="2026-02-01T19:53:01 MSK" duration-ms="3248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHoverVerifyNameAndClick()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:53:01 MSK" name="testHoverVerifyNameAndClick" description="Для первого профиля: наведение, проверка имени, клик, проверка загрузки" finished-at="2026-02-01T19:53:04 MSK" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverVerifyNameAndClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:53:04 MSK" name="tearDown" finished-at="2026-02-01T19:53:04 MSK" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:53:04 MSK" name="setUp" finished-at="2026-02-01T19:53:07 MSK" duration-ms="3262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSecondUserProfile()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:53:07 MSK" name="testSecondUserProfile" description="Получить имя второго пользователя и проверить" finished-at="2026-02-01T19:53:08 MSK" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecondUserProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:53:08 MSK" name="tearDown" finished-at="2026-02-01T19:53:08 MSK" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:53:08 MSK" name="setUp" finished-at="2026-02-01T19:53:11 MSK" duration-ms="3309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testThirdUserProfile()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:53:11 MSK" name="testThirdUserProfile" description="Получить имя третьего пользователя и проверить" finished-at="2026-02-01T19:53:12 MSK" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThirdUserProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.HoversTest@60129b9a]" started-at="2026-02-01T19:53:12 MSK" name="tearDown" finished-at="2026-02-01T19:53:12 MSK" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lr12.test.tests.HoversTest -->
+    </test> <!-- Hovers Tests -->
+    <test started-at="2026-02-01T19:52:18 MSK" name="Notification Messages Tests" finished-at="2026-02-01T19:53:29 MSK" duration-ms="70880">
+      <class name="com.lr12.test.tests.NotificationMessagesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:18 MSK" name="setUp" finished-at="2026-02-01T19:52:21 MSK" duration-ms="2628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCloseNotification()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:21 MSK" name="testCloseNotification" description="Нажать на кнопку закрытия нотификации" finished-at="2026-02-01T19:52:43 MSK" duration-ms="21591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCloseNotification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:43 MSK" name="tearDown" finished-at="2026-02-01T19:52:43 MSK" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:43 MSK" name="setUp" finished-at="2026-02-01T19:52:46 MSK" duration-ms="3599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompleteNotificationScenario()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:46 MSK" name="testCompleteNotificationScenario" description="Полный сценарий: клик -&gt; ожидание -&gt; получение текста" finished-at="2026-02-01T19:52:47 MSK" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteNotificationScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:47 MSK" name="tearDown" finished-at="2026-02-01T19:52:47 MSK" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:47 MSK" name="setUp" finished-at="2026-02-01T19:52:50 MSK" duration-ms="2622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testComplexNotificationFlow()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:50 MSK" name="testComplexNotificationFlow" description="Комплексный тест нотификаций" finished-at="2026-02-01T19:52:50 MSK" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComplexNotificationFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:50 MSK" name="tearDown" finished-at="2026-02-01T19:52:50 MSK" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:50 MSK" name="setUp" finished-at="2026-02-01T19:52:53 MSK" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetNotificationText()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:53 MSK" name="testGetNotificationText" description="Получить текст нотификации" finished-at="2026-02-01T19:52:53 MSK" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNotificationText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:53 MSK" name="tearDown" finished-at="2026-02-01T19:52:54 MSK" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:54 MSK" name="setUp" finished-at="2026-02-01T19:52:56 MSK" duration-ms="2482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMultipleNotifications()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:56 MSK" name="testMultipleNotifications" description="Несколько кликов на кнопку и проверка нотификаций" finished-at="2026-02-01T19:52:59 MSK" duration-ms="2701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleNotifications -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:59 MSK" name="tearDown" finished-at="2026-02-01T19:52:59 MSK" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:52:59 MSK" name="setUp" finished-at="2026-02-01T19:53:01 MSK" duration-ms="2475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNotificationAppears()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:01 MSK" name="testNotificationAppears" finished-at="2026-02-01T19:53:02 MSK" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotificationAppears -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:02 MSK" name="tearDown" finished-at="2026-02-01T19:53:02 MSK" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:02 MSK" name="setUp" finished-at="2026-02-01T19:53:04 MSK" duration-ms="2634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNotificationContainsText()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:04 MSK" name="testNotificationContainsText" description="Проверить, что нотификация содержит определённый текст" finished-at="2026-02-01T19:53:05 MSK" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotificationContainsText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:05 MSK" name="tearDown" finished-at="2026-02-01T19:53:05 MSK" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:05 MSK" name="setUp" finished-at="2026-02-01T19:53:07 MSK" duration-ms="2571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNotificationDisappears()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:07 MSK" name="testNotificationDisappears" description="Проверить, что нотификация исчезает через некоторое время" finished-at="2026-02-01T19:53:23 MSK" duration-ms="15559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotificationDisappears -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:23 MSK" name="tearDown" finished-at="2026-02-01T19:53:23 MSK" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:23 MSK" name="setUp" finished-at="2026-02-01T19:53:26 MSK" duration-ms="2498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNotificationTextVariations()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:26 MSK" name="testNotificationTextVariations" description="Проверить, что нотификация содержит один из возможных текстов" finished-at="2026-02-01T19:53:26 MSK" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotificationTextVariations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:26 MSK" name="tearDown" finished-at="2026-02-01T19:53:26 MSK" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:26 MSK" name="setUp" finished-at="2026-02-01T19:53:29 MSK" duration-ms="2577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNotificationTextWithVariations()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:29 MSK" name="testNotificationTextWithVariations" description="Проверить различные возможные варианты текста нотификации" finished-at="2026-02-01T19:53:29 MSK" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotificationTextWithVariations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.NotificationMessagesTest@146dfe6]" started-at="2026-02-01T19:53:29 MSK" name="tearDown" finished-at="2026-02-01T19:53:29 MSK" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lr12.test.tests.NotificationMessagesTest -->
+    </test> <!-- Notification Messages Tests -->
+    <test started-at="2026-02-01T19:51:37 MSK" name="Add Remove Elements Tests" finished-at="2026-02-01T19:53:52 MSK" duration-ms="135503">
+      <class name="com.lr12.test.tests.AddRemoveElementsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:51:37 MSK" name="setUp" finished-at="2026-02-01T19:51:41 MSK" duration-ms="3993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddAndDeleteElement()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:51:41 MSK" name="testAddAndDeleteElement" description="Добавить элемент, удалить его и проверить количество" finished-at="2026-02-01T19:52:03 MSK" duration-ms="22484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAndDeleteElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:52:03 MSK" name="tearDown" finished-at="2026-02-01T19:52:04 MSK" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:52:04 MSK" name="setUp" finished-at="2026-02-01T19:52:06 MSK" duration-ms="2450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddMultipleAndDeleteOne()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:52:06 MSK" name="testAddMultipleAndDeleteOne" description="Добавить 3 элемента, удалить 1 и проверить количество" finished-at="2026-02-01T19:52:09 MSK" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleAndDeleteOne -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:52:09 MSK" name="tearDown" finished-at="2026-02-01T19:52:09 MSK" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:52:09 MSK" name="setUp" finished-at="2026-02-01T19:52:11 MSK" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddMultipleElements()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:52:11 MSK" name="testAddMultipleElements" description="Добавить 2 элемента и проверить количество" finished-at="2026-02-01T19:52:33 MSK" duration-ms="21827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:52:33 MSK" name="tearDown" finished-at="2026-02-01T19:52:33 MSK" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:52:33 MSK" name="setUp" finished-at="2026-02-01T19:52:36 MSK" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddSingleElement()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:52:36 MSK" name="testAddSingleElement" description="Добавить 1 элемент и проверить количество DELETE кнопок" finished-at="2026-02-01T19:52:57 MSK" duration-ms="21186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSingleElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:52:57 MSK" name="tearDown" finished-at="2026-02-01T19:52:57 MSK" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:52:57 MSK" name="setUp" finished-at="2026-02-01T19:52:59 MSK" duration-ms="2302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteAllElements()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:52:59 MSK" name="testDeleteAllElements" description="Добавить элементы, удалить все и проверить" finished-at="2026-02-01T19:53:47 MSK" duration-ms="48320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteAllElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:53:47 MSK" name="tearDown" finished-at="2026-02-01T19:53:48 MSK" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:53:48 MSK" name="setUp" finished-at="2026-02-01T19:53:50 MSK" duration-ms="2211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteLastElement()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:53:50 MSK" name="testDeleteLastElement" description="Добавить элементы, удалить последний и проверить" finished-at="2026-02-01T19:53:52 MSK" duration-ms="2406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteLastElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lr12.test.tests.AddRemoveElementsTest@5965be2d]" started-at="2026-02-01T19:53:52 MSK" name="tearDown" finished-at="2026-02-01T19:53:52 MSK" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lr12.test.tests.AddRemoveElementsTest -->
+    </test> <!-- Add Remove Elements Tests -->
+  </suite> <!-- HerokuApp UI Tests -->
+</testng-results>
